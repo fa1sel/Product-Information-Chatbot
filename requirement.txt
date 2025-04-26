@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit==1.32.0
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-core==0.1.17
+langchain-groq==0.1.7
+
+# Document processing
+pypdf==3.17.1
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# Environment and utilities
+python-dotenv==1.0.0
+pydantic==2.5.2
+
+# Hugging Face dependencies
+transformers==4.38.2
+torch==2.1.2
+
+# Optional dependencies for performance improvements
+accelerate==0.25.0
